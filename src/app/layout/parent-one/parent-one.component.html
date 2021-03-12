@@ -1,0 +1,9 @@
+<h1>Parent 1</h1>
+<p>Value: <span class="value">{{displayValue}}</span></p>
+<div>
+  <input [(ngModel)]="tempValue">
+  <button (click)="changeValue()">Update</button>
+</div>
+<br>
+<app-child-one></app-child-one>
+<app-child-two></app-child-two>
